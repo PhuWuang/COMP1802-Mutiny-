@@ -32,13 +32,19 @@ position: absolute;
 
 }
 @-webkit-keyframes chim
-{
-	0%{right: 100px;}
-	50%{right: 400px;transform: rotate(30deg);}
-	60%{right: 600px; transform: none;}
-	80%{right: 900px;transform: rotate(-20deg);}
-	100%{left:1000px ;}
-
+{0%{top:200px;right: 100px;-webkit-transform:scaleX(-1);}
+10%{top:200px;right: 200px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+20%{top:200px;right: 300px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+30%{top:100px;right: 400px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+40%{top:100px;right: 500px; transform: rotate(-30deg);transform:scaleX(-1);}
+55%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+55.01%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+60%{top:150px;right: 800px;transform: rotate(-20deg) ;transform:scaleX(1);}
+65%{top:150px;left: 400px;transform: rotate(-20deg) ;transform:scaleX(1);}
+70%{top:100px;left: 500px;transform: rotate(-30deg) ;transform:scaleX(1);}
+80%{top:150px;left: 600px;transform: rotate(-30deg) ;transform:scaleX(1);}
+90%{top: 200px;left: 700px;transform: rotate(-20deg);transform:scaleX(1);}
+100%{top:200px;left: 1000px;transform: rotate(-30deg)  ;transform:scaleX(1);}
 }
 #chim{
 	top: 20px;
@@ -54,13 +60,21 @@ position: absolute;
 	}
 @-moz-keyframes chim
 {
-	0%{right: 100px;}
-	50%{right: 400px;transform: rotate(30deg);}
-	60%{right: 600px; transform: none;}
-	80%{right: 900px;transform: rotate(-20deg);}
-	100%{left:1000px ;}
-
+0%{top:200px;right: 100px;-webkit-transform:scaleX(-1);}
+10%{top:200px;right: 200px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+20%{top:200px;right: 300px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+30%{top:100px;right: 400px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+40%{top:100px;right: 500px; transform: rotate(-30deg);transform:scaleX(-1);}
+55%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+55.01%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+60%{top:150px;right: 800px;transform: rotate(-20deg) ;transform:scaleX(1);}
+65%{top:150px;left: 400px;transform: rotate(-20deg) ;transform:scaleX(1);}
+70%{top:100px;left: 500px;transform: rotate(-30deg) ;transform:scaleX(1);}
+80%{top:150px;left: 600px;transform: rotate(-30deg) ;transform:scaleX(1);}
+90%{top: 200px;left: 700px;transform: rotate(-20deg);transform:scaleX(1);}
+100%{top:200px;left: 1000px;transform: rotate(-30deg)  ;transform:scaleX(1);}
 }
+
 #chim{
 	top: 20px;
 	left: 0px;
@@ -75,11 +89,19 @@ position: absolute;
 	}
 @-o-keyframes chim
 {
-	0%{right: 100px;}
-	50%{right: 400px;transform: rotate(30deg);}
-	60%{right: 600px; transform: none;}
-	80%{right: 900px;transform: rotate(-20deg);}
-	100%{left:1000px ;}
+0%{top:200px;right: 100px;-webkit-transform:scaleX(-1);}
+10%{top:200px;right: 200px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+20%{top:200px;right: 300px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+30%{top:100px;right: 400px;transform: rotate(-30deg) ;transform:scaleX(-1);}
+40%{top:100px;right: 500px; transform: rotate(-30deg);transform:scaleX(-1);}
+55%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+55.01%{top:150px;right: 650px; transform: rotate(-30deg);transform:scaleX(-1);}
+60%{top:150px;right: 800px;transform: rotate(-20deg) ;transform:scaleX(1);}
+65%{top:150px;left: 400px;transform: rotate(-20deg) ;transform:scaleX(1);}
+70%{top:100px;left: 500px;transform: rotate(-30deg) ;transform:scaleX(1);}
+80%{top:150px;left: 600px;transform: rotate(-30deg) ;transform:scaleX(1);}
+90%{top: 200px;left: 700px;transform: rotate(-20deg);transform:scaleX(1);}
+100%{top:200px;left: 1000px;transform: rotate(-30deg)  ;transform:scaleX(1);}
 
 }
 
@@ -87,7 +109,7 @@ position: absolute;
 	bottom: 100px;
 	position: absolute;
 	-webkit-animation-name: heo;
-	-webkit-animation-duration: 8s;
+	-webkit-animation-duration: 15s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-play-state: running;	
@@ -95,9 +117,14 @@ position: absolute;
 
 @-webkit-keyframes heo
 {
-	0%{left: 100px;}
-	50%{left: 600px;}
-	100%{left:1000px ;}
+	0%{left: 0px;}
+	50%{left: 900px;transform: scaleX(1);}
+	60%{left: 1350px;transform: scaleX(-1);}
+	65%{left: 1400px;transform: scaleX(-1);}
+	70%{left: 1350px;transform: scaleX(-1);}
+	80%{left: 1100px;transform: scaleX(-1);}
+	90%{left:  900px;transform: scaleX(-1);}
+	100%{left:700px ;transform: scaleX(-1);}
 }
 #heo{
 	bottom: 100px;
@@ -111,9 +138,14 @@ position: absolute;
 
 @-o-keyframes heo
 {
-	0%{left: 100px;}
-	50%{left: 600px;}
-	100%{left:1000px ;}
+	0%{left: 0px;}
+	50%{left: 900px;transform: scaleX(1);}
+	60%{left: 1350px;transform: scaleX(-1);}
+	65%{left: 1400px;transform: scaleX(-1);}
+	70%{left: 1350px;transform: scaleX(-1);}
+	80%{left: 1100px;transform: scaleX(-1);}
+	90%{left:  900px;transform: scaleX(-1);}
+	100%{left:700px ;transform: scaleX(-1);}
 }
 #heo{
 	bottom: 100px;
@@ -127,15 +159,20 @@ position: absolute;
 
 @-moz-keyframes heo
 {
-	0%{left: 100px;}
-	50%{left: 600px;}
-	100%{left:1000px ;}
+	0%{left: 0px;}
+	50%{left: 900px;transform: scaleX(1);}
+	60%{left: 1350px;transform: scaleX(-1);}
+	65%{left: 1400px;transform: scaleX(-1);}
+	70%{left: 1350px;transform: scaleX(-1);}
+	80%{left: 1100px;transform: scaleX(-1);}
+	90%{left:  900px;transform: scaleX(-1);}
+	100%{left:700px ;transform: scaleX(-1);}
 }
 #sutu{
 	bottom: 100px;
 	position: absolute;
 	-webkit-animation-name: sutu;
-	-webkit-animation-duration: 8s;
+	-webkit-animation-duration: 15s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-play-state: running;	
@@ -143,8 +180,13 @@ position: absolute;
 @-webkit-keyframes sutu
 {
 	0%{left: 0px;}
-	50%{left: 700px;}
-	100%{left:1200px ;}
+	50%{left: 1000px;transform: scaleX(1);}
+	60%{left: 1200px;transform: scaleX(-1);}
+	65%{left: 1250px;transform: scaleX(-1);}
+	70%{left: 1200px;transform: scaleX(-1);}
+	80%{left: 1000px;transform: scaleX(-1);}
+	90%{left:  800px;transform: scaleX(-1);}
+	100%{left:600px ;transform: scaleX(-1);}
 }
 #sutu{
 	bottom: 100px;
@@ -158,8 +200,13 @@ position: absolute;
 @-o-keyframes sutu
 {
 	0%{left: 0px;}
-	50%{left: 700px;}
-	100%{left:1200px ;}
+	50%{left: 1000px;transform: scaleX(1);}
+	60%{left: 1200px;transform: scaleX(-1);}
+	65%{left: 1250px;transform: scaleX(-1);}
+	70%{left: 1200px;transform: scaleX(-1);}
+	80%{left: 1000px;transform: scaleX(-1);}
+	90%{left:  800px;transform: scaleX(-1);}
+	100%{left:600px ;transform: scaleX(-1);}
 }
 #sutu{
 	bottom: 100px;
@@ -173,8 +220,13 @@ position: absolute;
 @-moz-keyframes sutu
 {
 	0%{left: 0px;}
-	50%{left: 700px;}
-	100%{left:1200px ;}
+	50%{left: 1000px;transform: scaleX(1);}
+	60%{left: 1200px;transform: scaleX(-1);}
+	65%{left: 1250px;transform: scaleX(-1);}
+	70%{left: 1200px;transform: scaleX(-1);}
+	80%{left: 1000px;transform: scaleX(-1);}
+	90%{left:  800px;transform: scaleX(-1);}
+	100%{left:600px ;transform: scaleX(-1);}
 }
 #sutu2{
 	bottom: 180px;
